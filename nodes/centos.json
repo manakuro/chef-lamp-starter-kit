@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[yum_repo]"
+    // "recipe[lamp]"
+  ],
+  "automatic": {
+    "ipaddress": "centos"
+  }
+}
