@@ -1,7 +1,8 @@
 {
   "run_list": [
     "recipe[yum_repo]",
-    "recipe[lamp]"
+    "recipe[lamp]",
+    "recipe[git]"
   ],
   "automatic": {
     "ipaddress": "centos"
